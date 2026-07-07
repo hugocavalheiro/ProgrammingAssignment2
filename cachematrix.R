@@ -1,9 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## full submission
+## makeCacheMatrix - create and change the value of a matrix on memory
+## cacheSolve - create a mean of the matrix or use it from the memory if exists. 
 
-## Write a short comment describing this function
 ## Set the value of the matrix an reset the cache, inverse the matrix
-
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   
@@ -24,7 +23,6 @@ makeCacheMatrix <- function(x = matrix()) {
 } 
 
 
-## Write a short comment describing this function
 ## Use of cached inverse matrix if exists
 cacheSolve <- function(x, ...) {
     m <- x$getmean()
